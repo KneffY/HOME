@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(201, 236, 200);
+    flex-wrap: wrap;
+}
+
+/* HEADER ################################### */
+header {
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(90deg, rgb(42, 153, 79), rgb(99, 206, 37));
+}
+
+#view {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+/* MAIN ####################################### */
+main {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height:500px;
+    padding-left: 25px;
+}
+#type {
+    border-bottom: 2px solid rgb(152, 180, 152);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 130px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(19, 22, 19);
+    margin-bottom: 40px;
+}
+.dimentions {
+    width: 550px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.btn {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    background: rgb(42, 153, 79);
+    color: rgb(201, 236, 200);
+    font-size: 20px;
+    font-weight:bold;
+    margin-right: 10px;
+}
+.dimentions input {
+    height: 50px;
+    width: 395px;
+    border-radius: 25px;
+    border: 0;
+    background: rgb(176, 204, 175);
+}
+#calculate {
+    width: 550px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button {
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background: rgb(99, 206, 37);
+    font-size: 25px;
+    font-weight:bold;
+    color: rgb(201, 236, 200);
+}
+/* ASIDE ####################################### */
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height:500px;
+    background: rgb(19, 22, 19);
+    justify-content: center;
+}
+aside h3 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(201, 236, 200);
+}
+#showList {
+    width: 85%;
+    height: 430px;
+    background: rgb(41, 48, 41);
+    border-radius: 10px;
+    margin-top: -10px;
+}
